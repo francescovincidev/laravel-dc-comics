@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->string('image');
-            $table->decimal('price', 5, 2);
+            $table->string('price', 7);
             $table->string('series');
             $table->date('sale_date');
             $table->string('type');
